@@ -1,12 +1,17 @@
 {
-  "name": "api-throttle-mananger",
+"name": "api-throttle-manager",
   "version": "1.1.3",
-  "description": "",
+  "description": "A utility for throttling and debouncing API calls.",
   "main": "index.js",
   "readme": "README.md",
   "scripts": {
     "test": "node test/test.js"
   },
-  "author": "",
+  "keywords": ["api", "throttle", "debounce", "api-throttler", "rate-limiting"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YSGangwar/api-throttle-manager"
+  },
+  "author": "Yuvraj Singh Gangwar yobuddy81@gmail.com ",
   "license": "ISC"
 }

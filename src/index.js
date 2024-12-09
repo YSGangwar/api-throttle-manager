@@ -10,5 +10,4 @@ function createApiHandler(apiFunction, { mode = 'throttle', delay = 300, limit =
       throw new Error("Invalid mode. Please choose 'throttle' or 'debounce'.");
     }
 }
-  
-  module.exports = createApiHandler;
+module.exports = createApiHandler;

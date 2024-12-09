@@ -1,4 +1,4 @@
-
+```js
 const createApiHandler = require('api-throttler');
 
 async function fetchData() {
@@ -31,3 +31,4 @@ const debouncedFetch = createApiHandler(fetchData, { mode: 'debounce', delay: 50
 document.getElementById('search').addEventListener('input', () => {
   debouncedFetch();
 });
+```
